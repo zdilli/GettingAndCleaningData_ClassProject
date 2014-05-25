@@ -4,7 +4,7 @@ GettingAndCleaningData_ClassProject
 Class Project / Peer Reviewed Assignment for May 2014 run of Getting and Cleaning Data, Coursera
 
 
-Most of this README file is based on the comments in the code, which is also in the same
+Most of this README file is based on the comments in the code, which is also in this same
 repository.
 
 The script starts by reading in data.  The R script is assumed to be in the same directory as the 
@@ -49,9 +49,13 @@ The final column names in the output dataframe "SamsungData_Tidy_Averages" are a
 
 
 subjectID:  The subject performing the activity
+
 activityLabelID: The numeric label for the activity being performed
+
 activityLabel: The verbal descriptive label for the activity being performed, 
+
 corresponding to activityLabelID
+
 tBodyAcc-mean()-X etc.: These keep the original variable names from the dataset, but the values are 
 average values across that activity for that subject as specified by the row.
 
